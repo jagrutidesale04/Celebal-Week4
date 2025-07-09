@@ -1,26 +1,26 @@
-# 📊 Week 4: Heart Disease EDA + XGBoost Modeling
+#  Week 4: Heart Disease EDA + XGBoost Modeling
 
 This project is part of **Week 4** of the **Celebal Summer Internship** program.
 
 The assignment was to perform **in-depth Exploratory Data Analysis (EDA)** on a complex dataset. I chose the **Heart Disease UCI dataset** from Kaggle, conducted a full EDA, and then built a predictive model using **XGBoost** with hyperparameter tuning and unsupervised clustering using **PCA + KMeans**.
 
-## 📌 Features
+##  Features
 
-- ✅ Thorough EDA with:
+-  Thorough EDA with:
   - Dataset summary, null check, statistical analysis
   - Visualizations: histograms, boxplots, heatmaps, countplots
   - Outlier detection and correlation insights
-- 🧠 Predictive Modeling:
+-  Predictive Modeling:
   - Train/Test split with `train_test_split()`
   - `XGBoostClassifier` with cross-validation
   - `RandomizedSearchCV` for hyperparameter tuning
-- 🔬 Dimensionality Reduction:
+-  Dimensionality Reduction:
   - StandardScaler + PCA (2D + 3D visualization)
-- 🎯 Clustering with KMeans:
+-  Clustering with KMeans:
   - Elbow method, Silhouette Score, PCA-based cluster visualization
-- 📉 Feature importance ranking using XGBoost
+-  Feature importance ranking using XGBoost
 
-## 📂 File Structure
+##  File Structure
 
 ```
 Celebal-Week4/
@@ -30,7 +30,7 @@ Celebal-Week4/
 └── README.md                   # This file
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone this Repository
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 jupyter notebook week4.ipynb
 ```
 
-## 📊 Visualizations Included
+## Visualizations Included
 
 - Histograms
 - Boxplots
@@ -69,7 +69,7 @@ jupyter notebook week4.ipynb
 - 2D PCA scatter plot
 - 3D PCA cluster visualization with Plotly
 
-## 📎 Requirements
+##  Requirements
 
 ```
 pandas
@@ -82,15 +82,15 @@ plotly
 scipy
 ```
 
-## 👩‍💻 Author
+##  Author
 
 **Jagruti Desale**  
 B.Tech – Data Science and Engineering (3rd Year)  
 Summer Intern @ Celebal Technologies
 
-🔗 [GitHub](https://github.com/jagrutidesale04)  
-💼 [LinkedIn](https://www.linkedin.com/in/jagruti-desale-jd04)
+ [GitHub](https://github.com/jagrutidesale04)  
+ [LinkedIn](https://www.linkedin.com/in/jagruti-desale-jd04)
 
-## 📜 License
+##  License
 
 This project is intended for academic and learning purposes only as part of the Celebal Summer Internship program.
